@@ -1,0 +1,15 @@
+#imagem-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+}
+#imagem-container img{
+    height: 300px;
+    flex-grow: 1;
+    transition: all .5s;
+    filter: grayscale();
+}
+#imagem-container img:hover{
+    filter: grayscale(0);
+}
